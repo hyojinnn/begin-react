@@ -15,7 +15,7 @@ function App() {
     }
 
     return (
-      <UserList />
+      <InputSample />
     );
 }
 
