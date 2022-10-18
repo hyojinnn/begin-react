@@ -21,7 +21,7 @@ function App() {
       <Wrapper />
       <Counter />
       <InputSample />
-      <MyComponent>리액트</MyComponent>
+      <MyComponent name="React" favoriteNumber={1}>리액트</MyComponent>
       </>
      
     );
