@@ -15,7 +15,13 @@ function App() {
     }
 
     return (
+      <React.Fragment>
+      <Hello />
+      <Wrapper />
+      <Counter />
       <InputSample />
+      </React.Fragment>
+     
     );
 }
 
