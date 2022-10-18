@@ -5,6 +5,7 @@ import Counter from "./Counter";
 import InputSample from "./InputSample";
 import UserList from "./UserList";
 import MyComponent from "./MyComponent";
+import Say from "./Say";
 
 function App() {
     const name = 'react';
@@ -21,6 +22,7 @@ function App() {
       <Wrapper />
       <Counter />
       <InputSample />
+      <Say />
       <MyComponent name="React" favoriteNumber={1}>리액트</MyComponent>
       </>
      
