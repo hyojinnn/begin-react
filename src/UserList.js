@@ -26,11 +26,12 @@ function UserList() {
             email: 'liz@example.com'
         }
     ];
+
     return (
         <div>
-            <User user={users[0]} />
-            <User user={users[1]} />
-            <User User={users[2]} />
+            {users.map(user => (
+                <User user = {user} />
+            ))}
         </div>
     );
 }
