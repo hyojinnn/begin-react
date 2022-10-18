@@ -20,6 +20,7 @@ function App() {
       <Wrapper />
       <Counter />
       <InputSample />
+      <UserList />
       </>
      
     );
