@@ -6,6 +6,7 @@ import InputSample from "./InputSample";
 import UserList from "./UserList";
 import MyComponent from "./MyComponent";
 import Say from "./Say";
+import CreateUser from "./CreateUser";
 
 function App() {
     const name = 'react';
@@ -47,6 +48,7 @@ function App() {
       <InputSample />
       <Say />
       <MyComponent name="React" favoriteNumber={1}>리액트</MyComponent>
+      <CreateUser />
       <UserList users = {users} />
       </>
      
